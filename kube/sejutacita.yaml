@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sejutacita
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: sejutacita
+  template:
+    metadata:
+      labels:
+        app: sejutacita
+    spec:
+      containers:
+        - name: sejutacita
+          image: reynadi17/sejutacita
+          ports:
+            - containerPort: 3000
+          env:
+            - name: MONGO_URI
+              value: mongodb+srv://admin:rahasiaadmin@cluster0.yy3f4.mongodb.net/sejutacita?retryWrites=true&w=majority
+            - name: SECRET_JWT
+              value: rahasia
+            - name: SALT_ROUND
+              value: 10
+          imagePullPolicy: Always
