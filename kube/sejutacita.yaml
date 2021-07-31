@@ -19,9 +19,9 @@ spec:
             - containerPort: 3000
           env:
             - name: MONGO_URI
-              value: mongodb+srv://admin:rahasiaadmin@cluster0.yy3f4.mongodb.net/sejutacita?retryWrites=true&w=majority
+              value: "mongodb+srv://admin:rahasiaadmin@cluster0.yy3f4.mongodb.net/sejutacita?retryWrites=true&w=majority"
             - name: SECRET_JWT
-              value: rahasia
+              value: "rahasia"
             - name: SALT_ROUND
-              value: 10
+              value: "10"
           imagePullPolicy: Always
