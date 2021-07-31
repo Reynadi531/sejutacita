@@ -21,3 +21,4 @@ For this project using latest nodejs alpine images. And the image registery was 
 
 ## Kubernetes
 This project using AWS EC2 as master (t2.2xlarge) and one node (t2.medium), config file for kubernetes contain in `kube` included with loadbalancer services
+![image](https://user-images.githubusercontent.com/43875921/127748396-e76a6daf-7b09-4ed4-b264-9f25e43143c0.png)
