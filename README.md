@@ -4,7 +4,7 @@ This the project required by SejutaCita to fullfield the nodejs backend engineer
 
 ## Stack
 * Expressjs
-* MonggoDB
+* MongoDB
 
 ## Docs
 Documentation of the API itself could be found [here](https://documenter.getpostman.com/view/11571298/TzseKmVG)
@@ -14,11 +14,11 @@ Documentation of the API itself could be found [here](https://documenter.getpost
 > pasword: admin
 
 ## API Flow
-<img src="https://i.ibb.co/2ZD4L7d/Sejuta-Cita.jpg" />
+![SejutaCita](https://user-images.githubusercontent.com/43875921/127756412-4b5b5d80-6264-4cfc-a138-5c8db3363e8d.jpeg)
 
 ## Docker
-For this project using latest nodejs alpine images. And the image registery was docker hub, could be found [here](https://hub.docker.com/r/reynadi17/sejutacita)
+This project uses the latest Node.JS Alpine Images. The image registry is hosted on docker hub and can be found [here](https://hub.docker.com/r/reynadi17/sejutacita)
 
 ## Kubernetes
-This project using AWS EC2 as master (t2.2xlarge) and one node (t2.medium), config file for kubernetes contain in `kube` included with loadbalancer services
+This project currently uses Amazon Web Services Elastic Compute 2 `t2.2xlarge` as a master and `t2.medium` as a node. The following are the Kubernetes Configuration File contained in the `kube` directory included with the load balancer services
 ![image](https://user-images.githubusercontent.com/43875921/127748396-e76a6daf-7b09-4ed4-b264-9f25e43143c0.png)
