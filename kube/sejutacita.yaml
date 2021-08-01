@@ -18,6 +18,8 @@ spec:
           ports:
             - containerPort: 3000
           env:
+            - name: NODE_ENV
+              value: "production"
             - name: MONGO_URI
               value: "mongodb+srv://admin:rahasiaadmin@cluster0.yy3f4.mongodb.net/sejutacita?retryWrites=true&w=majority"
             - name: SECRET_JWT
