@@ -14,7 +14,7 @@ Documentation of the API itself could be found [here](https://documenter.getpost
 > pasword: admin
 
 ## API Flow
-![SejutaCita](https://user-images.githubusercontent.com/43875921/127756412-4b5b5d80-6264-4cfc-a138-5c8db3363e8d.jpeg)
+![SejutaCita](https://user-images.githubusercontent.com/43875921/127891009-d7a09ed2-fea0-45a5-ad36-c914c30ba97e.jpeg)
 
 ## Docker
 This project uses the latest Node.JS Alpine Images. The image registry is hosted on docker hub and can be found [here](https://hub.docker.com/r/reynadi17/sejutacita)
